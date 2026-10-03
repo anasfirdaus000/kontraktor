@@ -1,27 +1,46 @@
 import fs from 'fs';
 import path from 'path';
+import { createRequire } from 'module';
 
-const DB_PATH = path.join(process.cwd(), 'data', 'db.json');
+// On Vercel, the filesystem is read-only except /tmp.
+// Strategy:
+//   - Read: try /tmp/db.json first (runtime edits), fallback to bundled data/db.json
+//   - Write: always write to /tmp/db.json (persists within the same serverless instance)
+const IS_VERCEL = process.env.VERCEL === '1';
+const SOURCE_DB = path.join(process.cwd(), 'data', 'db.json');
+const RUNTIME_DB = IS_VERCEL ? '/tmp/db.json' : SOURCE_DB;
+
+function ensureRuntimeDb() {
+  if (IS_VERCEL && !fs.existsSync(RUNTIME_DB)) {
+    // Seed /tmp from the bundled source on cold start
+    const source = fs.readFileSync(SOURCE_DB, 'utf8');
+    fs.writeFileSync(RUNTIME_DB, source, 'utf8');
+  }
+}
 
 export function getDb() {
   try {
-    if (!fs.existsSync(DB_PATH)) {
-      throw new Error('Database file not found');
-    }
-    const data = fs.readFileSync(DB_PATH, 'utf8');
+    ensureRuntimeDb();
+    const data = fs.readFileSync(RUNTIME_DB, 'utf8');
     return JSON.parse(data);
   } catch (error) {
-    console.error('Error reading db.json:', error);
-    return null;
+    console.error('Error reading db:', error);
+    // Last-resort: try reading directly from source (read-only, always works)
+    try {
+      const data = fs.readFileSync(SOURCE_DB, 'utf8');
+      return JSON.parse(data);
+    } catch {
+      return null;
+    }
   }
 }
 
 export function saveDb(data) {
   try {
-    fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2), 'utf8');
+    fs.writeFileSync(RUNTIME_DB, JSON.stringify(data, null, 2), 'utf8');
     return true;
   } catch (error) {
-    console.error('Error writing db.json:', error);
+    console.error('Error writing db:', error);
     return false;
   }
 }

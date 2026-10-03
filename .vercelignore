@@ -1,0 +1,33 @@
+# Figma Make prototype - reference only, not part of the deployed website
+DESAIN/
+
+# Reference website files saved from client
+reference/
+*.css
+*.js.download
+
+# Temporary analysis scripts
+analyze_ref.py
+analyze_sections.py
+inspect_details.py
+check_hero.py
+check_hero_html.py
+analyze_desain.py
+
+# Reference images/assets at root level
+369.jpg
+743-768x512.jpg
+2149367126-300x200.jpg
+48732-300x200.jpg
+52060-300x200.jpg
+service1-min-768x432.jpg
+service2-min-768x432.jpg
+service3-min-768x432.jpg
+service4-min-768x432.jpg
+service5-min-768x432.jpg
+service6-min-768x432.jpg
+logo-footer-javadia.png
+logo-header-300x78.jpg
+
+# Saved reference HTML
+*.html
