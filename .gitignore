@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Reference website files (saved HTML/CSS from client reference)
+reference/
+*.css
+*.js.download
+*.min.css
+
+# Reference images (root-level, not needed in repo)
+369.jpg
+743-768x512.jpg
+2149367126-300x200.jpg
+48732-300x200.jpg
+52060-300x200.jpg
+service1-min-768x432.jpg
+service2-min-768x432.jpg
+service3-min-768x432.jpg
+service4-min-768x432.jpg
+service5-min-768x432.jpg
+service6-min-768x432.jpg
+logo-footer-javadia.png
+logo-header-300x78.jpg
+
+# Saved reference HTML
+*.html
+
+# Temporary analysis scripts
+analyze_ref.py
+analyze_sections.py
+inspect_details.py
+check_hero.py
+check_hero_html.py
+analyze_desain.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

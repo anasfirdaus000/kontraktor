@@ -1,0 +1,356 @@
+{
+  "settings": {
+    "businessName": "Mitra Bangun Mandiri",
+    "tagline": "Jasa Kontraktor & Renovasi Bangunan Terpercaya",
+    "ownerName": "Ir. Hendra Pratama",
+    "whatsapp": "6282141486171",
+    "phone": "0821-4148-6171",
+    "email": "konsultasi@mitrabangunmandiri.com",
+    "address": "Jl. Bougenville No. 18, Jakarta Selatan & Wilayah Jabodetabek",
+    "workingHours": "Senin - Sabtu: 08.00 - 17.00 WIB",
+    "heroHeadline": "Membangun dan Merenovasi dengan Perencanaan yang Tepat & Transparan",
+    "heroDescription": "Mitra profesional untuk bangun rumah baru dan renovasi bangunan. Mengutamakan transparansi rencana anggaran biaya (RAB), kualitas pengerjaan rapi, dan komunikasi langsung tanpa perantara bertingkat.",
+    "aboutShort": "Mitra Bangun Mandiri adalah jasa kontraktor perorangan profesional yang fokus pada pembangunan dan renovasi hunian dengan pendekatan yang rapi, transparan, dan bertanggung jawab.",
+    "aboutLong": "Berawal dari pengalaman lapangan bertahun-tahun dalam konstruksi hunian pribadi, kami hadir memberikan alternatif kontraktor yang komunikatif dan terpercaya. Kami memahami bahwa rumah adalah aset dan tempat tinggal berharga bagi setiap keluarga. Oleh karena itu, setiap proyek kami tangani dengan pengawasan langsung, penggunaan material sesuai spesifikasi, dan laporan progres berkala kepada pemilik rumah.",
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com",
+    "youtube": "https://youtube.com"
+  },
+  "services": [
+    {
+      "id": "srv-1",
+      "slug": "jasa-bangun-rumah-baru",
+      "title": "Bangun Rumah Baru",
+      "subtitle": "Konstruksi Rumah Tinggal Siap Huni",
+      "icon": "Home",
+      "image": "/images/desain/p1.jpg",
+      "shortDesc": "Pembangunan rumah dari pondasi nol, struktur kokoh, dinding, hingga serah terima kunci dengan perhitungan RAB yang transparan.",
+      "scope": [
+        "Pekerjaan pondasi cakar ayam & batu kali",
+        "Struktur beton bertulang standar SNI",
+        "Pemasangan dinding bata merah / hebel dan plester aci",
+        "Pekerjaan atap baja ringan & penutup genteng",
+        "Finishing lantai granit / keramik & pengecatan",
+        "Instalasi kelistrikan & pemipaan air bersih/kotor"
+      ],
+      "featured": true
+    },
+    {
+      "id": "srv-2",
+      "slug": "renovasi-total-parsial",
+      "title": "Renovasi Total & Parsial",
+      "subtitle": "Pembaruan Tata Ruang & Eksterior",
+      "icon": "Hammer",
+      "image": "/images/desain/p2.jpg",
+      "shortDesc": "Renovasi menyeluruh maupun parsial untuk memperbarui tampilan, memperbaiki kerusakan bangunan, atau menata ulang denah ruangan.",
+      "scope": [
+        "Pembaruan tampak depan (facade modern)",
+        "Perubahan layout & sekat ruangan keluarga",
+        "Renovasi area dapur & ruang makan",
+        "Pembaruan kamar mandi & instalasi sanitair",
+        "Penggantian kusen, pintu, dan jendela",
+        "Pengecatan ulang interior dan eksterior"
+      ],
+      "featured": true
+    },
+    {
+      "id": "srv-3",
+      "slug": "peningkatan-dak-lantai-2",
+      "title": "Peningkatan Dak Lantai 2",
+      "subtitle": "Penambahan Ruang Vertikal",
+      "icon": "Layers",
+      "image": "/images/desain/detail.jpg",
+      "shortDesc": "Penambahan lantai atas secara aman dengan perhitungan kekuatan pondasi, suntik kolom struktur, dan pengecoran dak berkualitas.",
+      "scope": [
+        "Analisis kelayakan struktur bangunan lama",
+        "Suntik kolom & penambahan cakar ayam pendukung",
+        "Pengecoran plat lantai beton bertulang bondek / konvensional",
+        "Pembangunan dinding lantai atas & partisi ruang",
+        "Pemasangan atap pelindung lantai baru",
+        "Penyambungan instalasi listrik & pipa air ke lantai atas"
+      ],
+      "featured": true
+    },
+    {
+      "id": "srv-4",
+      "slug": "desain-arsitektur-dan-rab",
+      "title": "Desain Arsitektur & RAB",
+      "subtitle": "Perencanaan Matang Sebelum Pengerjaan",
+      "icon": "Compass",
+      "image": "/images/desain/blog.jpg",
+      "shortDesc": "Pembuatan gambar denah kerja, visual 3D eksterior, dan rincian estimasi biaya material serta tenaga kerja secara transparan.",
+      "scope": [
+        "Konsultasi kebutuhan ruang dan gaya arsitektur",
+        "Pembuatan layout denah 2D fungsional",
+        "Rendering visual 3D perspektif eksterior",
+        "Penyusunan Rencana Anggaran Biaya (RAB) per pos kerja",
+        "Pilihan alternatif material sesuai anggaran klien"
+      ],
+      "featured": true
+    },
+    {
+      "id": "srv-5",
+      "slug": "pekerjaan-atap-dan-waterproofing",
+      "title": "Perbaikan Atap & Waterproofing",
+      "subtitle": "Solusi Tuntas Bocor & Rangka Atap",
+      "icon": "ShieldCheck",
+      "image": "/images/desain/arch.jpg",
+      "shortDesc": "Solusi kebocoran dak dan atap dengan penggantian rangka baja ringan, talang air terpadu, dan aplikasi waterproofing bergaransi.",
+      "scope": [
+        "Bongkar atap lama yang rapuh / dimakan rayap",
+        "Pemasangan rangka atap baja ringan profil SNI",
+        "Pemasangan genteng beton, keramik, atau metal berpasir",
+        "Aplikasi waterproofing membran bakar pada dak beton",
+        "Perbaikan talang jurai dan pemipaan pembuangan air hujan"
+      ],
+      "featured": true
+    },
+    {
+      "id": "srv-6",
+      "slug": "finishing-interior-dan-plafon",
+      "title": "Finishing Interior & Plafon",
+      "subtitle": "Sentuhan Detail Estetis & Rapi",
+      "icon": "Paintbrush",
+      "image": "/images/desain/interior.jpg",
+      "shortDesc": "Pengerjaan detail plafon drop ceiling, partisi gypsum, lantai granit presisi, dan pengecatan rapi untuk suasana rumah nyaman.",
+      "scope": [
+        "Pemasangan rangka hollow & papan gypsum berkualitas",
+        "Pembuatan drop ceiling dengan instalasi warm light LED",
+        "Pemasangan granit lantai presisi nat rapat",
+        "Aplikasi cat dinding anti noda & bebas jamur",
+        "Pemasangan moulding dinding atau wall panel kayu"
+      ],
+      "featured": true
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "port-1",
+      "slug": "renovasi-hunian-2-lantai-bintaro",
+      "title": "Renovasi Total Rumah 2 Lantai Modern",
+      "category": "Renovasi Bangunan",
+      "location": "Bintaro Sektor 9, Tangerang Selatan",
+      "year": "2025",
+      "image": "/images/desain/hero.jpg",
+      "gallery": [
+        "/images/desain/hero.jpg",
+        "/images/desain/intro.jpg",
+        "/images/desain/p1.jpg"
+      ],
+      "summary": "Transformasi total rumah lama tipe 90 menjadi hunian modern 2 lantai dengan sirkulasi udara optimal dan fasad minimalis kontemporer.",
+      "description": "Proyek ini mencakup perombakan total denah lantai 1, penambahan 2 kamar tidur di lantai 2, pembuatan void tinggi untuk pencahayaan alami, serta pembaruan fasad menggunakan kisi-kisi kayu sintetis dan cat aksen abu gelap.",
+      "scope": "Struktur Dak Beton, Fasad Minimalis, Renovasi Ruang Keluarga, 3 Kamar Tidur, 2 Kamar Mandi",
+      "published": true
+    },
+    {
+      "id": "port-2",
+      "slug": "bangun-rumah-baru-bsd",
+      "title": "Pembangunan Rumah Tinggal Tipe 140",
+      "category": "Bangun Rumah Baru",
+      "location": "Cluster Foresta, BSD City",
+      "year": "2025",
+      "image": "/images/desain/p1.jpg",
+      "gallery": [
+        "/images/desain/p1.jpg",
+        "/images/desain/detail.jpg",
+        "/images/desain/arch.jpg"
+      ],
+      "summary": "Pengerjaan konstruksi dari nol di atas lahan 120m2 dengan konsep tropis modern, ruang terbuka hijau belakang, dan carport 2 mobil.",
+      "description": "Dibangun dengan pondasi cakar ayam bertulang SNI, dinding bata merah plester aci finishing premium, atap limas baja ringan, dan lantai utama granit 60x60 glazed polished.",
+      "scope": "Konstruksi Total Dari Pondasi, 4 Kamar Tidur, Balkon Atas, Carport Beton, Taman Belakang",
+      "published": true
+    },
+    {
+      "id": "port-3",
+      "slug": "peningkatan-dak-ruang-kerja-kebayoran",
+      "title": "Penambahan Lantai 2 & Ruang Kerja",
+      "category": "Peningkatan Struktur",
+      "location": "Kebayoran Lama, Jakarta Selatan",
+      "year": "2024",
+      "image": "/images/desain/detail.jpg",
+      "gallery": [
+        "/images/desain/detail.jpg",
+        "/images/desain/interior.jpg",
+        "/images/desain/detail2.jpg"
+      ],
+      "summary": "Peningkatan struktur dak untuk penambahan studio kerja dan area santai keluarga di lantai atas tanpa merusak lantai bawah.",
+      "description": "Menggunakan metode suntik kolom dan balok gantung yang presisi sehingga kegiatan di lantai bawah tetap dapat berjalan dengan minim gangguan selama pengerjaan.",
+      "scope": "Suntik Kolom Struktur, Dak Bondek Cor Ready Mix, Kamar Tidur Tambahan, Ruang Kerja Studio",
+      "published": true
+    },
+    {
+      "id": "port-4",
+      "slug": "renovasi-fasad-dan-dapur-cibubur",
+      "title": "Renovasi Fasad Tropis & Dapur Terbuka",
+      "category": "Renovasi Bangunan",
+      "location": "Kota Wisata, Cibubur",
+      "year": "2024",
+      "image": "/images/desain/p2.jpg",
+      "gallery": [
+        "/images/desain/p2.jpg",
+        "/images/desain/hero.jpg",
+        "/images/desain/intro.jpg"
+      ],
+      "summary": "Pembaruan tampilan tampak depan rumah agar lebih fresh dan pembuatan semi-outdoor kitchen yang menyatu dengan taman samping.",
+      "description": "Penggantian bata ekspos pada pilar teras, kanopi tempered glass dengan rangka besi hollow galvanis, dan meja dapur cor lapis granit hitam solid.",
+      "scope": "Fasad Depan, Kanopi Kaca, Dapur Semi-Outdoor, Taman Samping, Pengecatan Eksterior Weatherproof",
+      "published": true
+    },
+    {
+      "id": "port-5",
+      "slug": "peremajaan-rumah-klasik-pondok-indah",
+      "title": "Peremajaan Struktur & Interior Rumah Hunian",
+      "category": "Renovasi Bangunan",
+      "location": "Pondok Indah, Jakarta Selatan",
+      "year": "2024",
+      "image": "/images/desain/interior.jpg",
+      "gallery": [
+        "/images/desain/interior.jpg",
+        "/images/desain/detail2.jpg",
+        "/images/desain/p3.jpg"
+      ],
+      "summary": "Restorasi dan peremajaan sistem atap lama serta penataan ulang interior ruang utama agar lebih terang dan hemat energi.",
+      "description": "Penggantian kaso kayu lapuk dengan baja ringan, insulasi peredam panas aluminium foil ganda, dan drop ceiling gypsum dengan pencahayaan LED indirect.",
+      "scope": "Rangka Atap Baru, Talang Air Baru, Plafon Drop Ceiling, Re-wiring Listrik, Pengecatan Interior",
+      "published": true
+    },
+    {
+      "id": "port-6",
+      "slug": "konstruksi-villa-tamu-sentul",
+      "title": "Pembangunan Paviliun Tamu & Ruang Santai",
+      "category": "Bangun Rumah Baru",
+      "location": "Sentul City, Bogor",
+      "year": "2023",
+      "image": "/images/desain/p3.jpg",
+      "gallery": [
+        "/images/desain/p3.jpg",
+        "/images/desain/arch.jpg",
+        "/images/desain/p1.jpg"
+      ],
+      "summary": "Pembangunan paviliun tamu terpisah seluas 65m2 yang dilengkapi teras terbuka, kamar mandi bernuansa alam, dan area relaksasi.",
+      "description": "Menggabungkan elemen batu alam andesit pada dinding luar dan lantai teras granit unpolished, menghasilkan suasana santai dan sejuk.",
+      "scope": "Paviliun 1 Lantai, Teras Granit Kasar, Dinding Aksen Batu Alam, Area Relaksasi",
+      "published": true
+    }
+  ],
+  "catalog": [
+    {
+      "id": "cat-1",
+      "title": "Pekerjaan Dak Lantai Beton SNI",
+      "category": "Struktur & Pondasi",
+      "image": "/images/desain/detail.jpg",
+      "description": "Pengecoran dak lantai 2 menggunakan wiremesh M8/M10, bondek galvanis tebal 0.75mm, dan beton ready mix K-250 / K-300 teruji kuat tekan.",
+      "specification": "Wiremesh M8 SNI, Bondek 0.75mm, Beton Ready Mix K-250, Balok Struktur Besi Ulir",
+      "published": true
+    },
+    {
+      "id": "cat-2",
+      "title": "Rangka Atap Baja Ringan & Genteng Metal",
+      "category": "Atap & Plafon",
+      "image": "/images/desain/arch.jpg",
+      "description": "Pemasangan rangka atap baja ringan canal C75 dengan baut anti karat dan penutup genteng metal berpasir kedap suara hujan.",
+      "specification": "Truss C75.75 SNI, Reng 0.45mm, Genteng Metal Pasir / Morando, Dynabolt Penahan",
+      "published": true
+    },
+    {
+      "id": "cat-3",
+      "title": "Pemasangan Granit Tile 60x60 Presisi",
+      "category": "Finishing Lantai",
+      "image": "/images/desain/interior.jpg",
+      "description": "Pemasangan lantai granit glazed polished atau unpolished dengan sistem perataan tile leveling clips untuk nat super rapi dan rata.",
+      "specification": "Granit Tile 60x60 / 80x80, Perekat Semen MU-400 / Sika, Pengisi Nat Anti Jamur",
+      "published": true
+    },
+    {
+      "id": "cat-4",
+      "title": "Plafon Gypsum Drop Ceiling Modern",
+      "category": "Atap & Plafon",
+      "image": "/images/desain/detail2.jpg",
+      "description": "Pembuatan plafon bertingkat (drop ceiling) menggunakan papan gypsum 9mm rangka hollow galvanis anti karat, siap pasang lampu LED strip.",
+      "specification": "Gypsum Board 9mm Jayaboard/Elephant, Rangka Hollow 2x4 & 4x4 Galvanis, Compound Rapi",
+      "published": true
+    },
+    {
+      "id": "cat-5",
+      "title": "Renovasi Fasad Minimalis & Kanopi Kaca",
+      "category": "Eksterior",
+      "image": "/images/desain/p2.jpg",
+      "description": "Paket renovasi tampak depan rumah dengan aksen kisi-kisi wood-plastic composite (WPC), dinding batu alam, dan kanopi tempered glass 8mm/10mm.",
+      "specification": "Besi Hollow Tebal 1.6mm Cat Duco, Kaca Tempered 8mm / Solarflat, WPC Wall Cladding",
+      "published": true
+    },
+    {
+      "id": "cat-6",
+      "title": "Waterproofing Dak Beton Membran",
+      "category": "Proteksi Bangunan",
+      "image": "/images/desain/intro.jpg",
+      "description": "Lapisan anti bocor untuk dak beton atap dan talang air menggunakan sistem membran bakar elastisitas tinggi dan tahan cuaca ekstrem.",
+      "specification": "Membran Bitumen Bakar 3mm, Primer Aspal Emulsi, Screed Pelindung Permukaan",
+      "published": true
+    }
+  ],
+  "blog": [
+    {
+      "id": "blog-1",
+      "slug": "panduan-merencanakan-rab-renovasi-rumah",
+      "title": "Panduan Merencanakan RAB Renovasi Rumah Agar Tidak Membengkak",
+      "category": "Tips Renovasi",
+      "date": "18 Januari 2025",
+      "image": "/images/desain/blog.jpg",
+      "author": "Ir. Hendra Pratama",
+      "summary": "Biaya renovasi sering kali membengkak karena kurangnya detail pada saat perencanaan awal. Simak tips praktis menyusun anggaran yang realistis.",
+      "content": "Banyak pemilik rumah yang merasa cemas saat ingin merenovasi rumah karena takut biaya membengkak di tengah jalan. Hal ini biasanya terjadi karena beberapa faktor utama: tidak adanya Rencana Anggaran Biaya (RAB) tertulis yang rinci, perubahan desain saat pekerjaan sudah berjalan, atau tidak memperhitungkan kondisi tersembunyi seperti instalasi pipa lama yang sudah keropos.\n\nLangkah pertama yang bijak adalah menentukan skala prioritas: bagian mana yang bersifat fungsional mendesak (seperti perbaikan atap bocor atau struktur yang retak) dan mana yang bersifat estetis (seperti warna cat atau dekorasi dinding). Mintalah kontraktor untuk menyusun RAB itemized yang memuat volume kerja, jenis material yang disepakati, serta ongkos upah tenaga kerja secara terpisah.\n\nSelain itu, selalu siapkan dana cadangan (contingency budget) sebesar 10% hingga 15% dari total nilai proyek. Dana ini berguna untuk mengantisipasi hal-hal tak terduga tanpa harus menghentikan jalannya pekerjaan.",
+      "published": true
+    },
+    {
+      "id": "blog-2",
+      "slug": "tanda-tanda-struktur-rumah-sebelum-tambah-lantai-2",
+      "title": "Tanda-Tanda Struktur Rumah yang Perlu Diperkuat Sebelum Menambah Lantai 2",
+      "category": "Struktur Bangunan",
+      "date": "10 Februari 2025",
+      "image": "/images/desain/detail.jpg",
+      "author": "Ir. Hendra Pratama",
+      "summary": "Menambah lantai atas memerlukan pengecekan mendalam terhadap pondasi dan kolom eksisting demi keselamatan penghuni jangka panjang.",
+      "content": "Meningkat rumah menjadi 2 lantai adalah solusi populer bagi keluarga yang membutuhkan ruang tambahan tanpa harus membeli tanah baru. Namun, tidak semua bangunan 1 lantai siap menahan beban tambahan di atasnya.\n\nSebelum mengecor dak lantai 2, pastikan dilakukan evaluasi terhadap pondasi awal. Apakah dulu rumah dibangun dengan cakar ayam di titik-titik sudut? Jika bangunan awal hanya memakai pondasi batu kali dangkal, maka kontraktor harus melakukan teknik suntik kolom dan penambahan pondasi tapak (footplate) baru di samping pondasi lama.\n\nMemaksakan cor dak tanpa perkuatan kolom dapat memicu penurunan pondasi yang tidak merata, retak struktural pada dinding, bahkan risiko fatal kegagalan konstruksi. Konsultasikan selalu dengan kontraktor berpengalaman untuk menghitung dimensi besi beton dan beban dak yang aman.",
+      "published": true
+    },
+    {
+      "id": "blog-3",
+      "slug": "memilih-material-lantai-granit-vs-keramik",
+      "title": "Tips Memilih Material Lantai: Granit Tile vs Keramik Biasa",
+      "category": "Material & Finishing",
+      "date": "2 Maret 2025",
+      "image": "/images/desain/interior.jpg",
+      "author": "Ir. Hendra Pratama",
+      "summary": "Kenali perbedaan ketahanan, ukuran nat, pori-pori, dan perawatan antara granit tile homogen dan keramik lantai konvensional.",
+      "content": "Lantai adalah elemen interior yang paling sering bersentuhan dengan aktivitas harian penghuni rumah. Dua pilihan yang paling sering dipertimbangkan adalah lantai keramik dan homogeneous tile (granit tile).\n\nGranit tile diproduksi dengan pemanasan suhu tinggi sehingga memiliki kepadatan sangat tinggi dan tingkat penyerapan air yang sangat rendah (< 0.5%). Hasilnya, granit lebih tahan gores, tidak mudah kusam, dan sambungan nat bisa dibuat sangat rapat (1 mm - 1.5 mm) berkat pemotongan pinggiran yang presisi (rectified). Rumah pun terlihat lebih luas, mewah, dan modern.\n\nSementara itu, keramik biasa tetap menjadi opsi ekonomis yang baik untuk area servis, gudang, atau kontrakan. Namun untuk ruang tamu, ruang keluarga, dan kamar tidur utama, penggunaan granit 60x60 cm memberikan nilai estetika dan ketahanan yang jauh lebih awet puluhan tahun.",
+      "published": true
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testi-1",
+      "name": "Bapak Rahmat Hidayat",
+      "role": "Pemilik Rumah di Bintaro",
+      "avatar": "/images/desain/p1.jpg",
+      "text": "Sangat puas dengan renovasi rumah 2 lantai kami. Dari awal penyusunan RAB sangat transparan, pengerjaan rapi, dan Pak Hendra selalu komunikatif memberikan update foto progres tiap minggu.",
+      "rating": 5
+    },
+    {
+      "id": "testi-2",
+      "name": "Ibu Dina Mariana",
+      "role": "Pemilik Rumah di BSD City",
+      "avatar": "/images/desain/p2.jpg",
+      "text": "Membangun rumah dari nol bersama tim ini rasanya tenang. Material yang dipakai persis sesuai spek yang disepakati, tidak ada biaya siluman, dan serah terima kunci tepat waktu.",
+      "rating": 5
+    },
+    {
+      "id": "testi-3",
+      "name": "Bapak Gunawan Santoso",
+      "role": "Pemilik Rumah di Cibubur",
+      "avatar": "/images/desain/p3.jpg",
+      "text": "Renovasi fasad dan dapur semi-outdoor hasilnya melebihi ekspektasi. Kerapian nat granit dan finishing catnya jempolan. Sangat direkomendasikan untuk yang mencari kontraktor jujur.",
+      "rating": 5
+    }
+  ]
+}

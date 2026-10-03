@@ -1,0 +1,10 @@
+{
+  "description": "This premium web application showcases a modern Indonesian contractor's services, portfolio, and educational content, facilitating direct consultations via WhatsApp.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
